@@ -10,19 +10,18 @@ jobs:
   strategy:
    matrix:
     node-version: [ "14.17.4" ]
-    steps:
+steps:
   - uses: actions/checkout@v2
   - uses: actions/setup-node@v1 
     with:
       node-version: ${{matrix.node-version}}
-      - name: install packages
+- name: install packages
   run: npm install
-  - name: registry github user
+- name: registry github user
   run: |
     git config --global user.email <email>
     git config --global user.name <name>
-
-    - name: deploy the app
+- name: deploy the app
   run: npm run deploy
   env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+   GH_TOKEN: ${{ secrets.GH_TOKEN }}
