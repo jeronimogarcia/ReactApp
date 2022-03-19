@@ -1,0 +1,138 @@
+//extend buttons
+.btn {
+  background: radial-gradient(
+    circle,
+    rgb(36, 69, 219) 60%,
+    rgb(122, 171, 211) 100%
+  );
+  color: white;
+  height: 50px;
+  width: 300px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background, color 0.5s;
+  border: none;
+  margin: 7px 0px 30px 0px;
+}
+
+.btn:hover {
+  color: rgb(248, 234, 34);
+  background: rgb(0, 0, 0);
+}
+
+//body
+.cart__container {
+  h1 {
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+  .cart__btnCatContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .cart__btnCat {
+      @extend .btn;
+    }
+  }
+  .alert {
+    div {
+      div {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 4px 0;
+      }
+    }
+  }
+  .cart__tableContainer {
+    display: flex;
+    justify-content: center;
+    .cart__table {
+      width: 90%;
+      .cart__thead {
+        .cart__tr {
+          th {
+            width: 25%;
+            font-size: 24px;
+          }
+          .cart__thImg {
+            width: 90px;
+            min-width: 90px;
+          }
+        }
+      }
+      .cart__tbody {
+        tr {
+          border-top: 1px solid black;
+          td {
+            font-size: 22px;
+            background-color: white;
+            .cart__deleteBtn {
+              background-color: white;
+              border: none;
+            }
+          }
+        }
+      }
+      .cart__foot {
+        tr {
+          border-top: 1px solid black;
+          th {
+            font-size: 22px;
+          }
+          .cart__thBtnContainer {
+            .cart__btnContainer {
+              display: flex;
+              justify-content: flex-start;
+              .cart__btnClean {
+                background: radial-gradient(
+                  circle,
+                  rgb(35, 32, 36) 60%,
+                  rgb(0, 0, 0) 100%
+                );
+                color: white;
+                height: 50px;
+                width: 300px;
+                border-radius: 8px;
+                font-size: 18px;
+                transition: background, color 0.5s;
+                border: none;
+                margin: 7px;
+              }
+              .cart__btnClean:hover {
+                color: rgb(248, 234, 34);
+                background: rgb(0, 0, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .form__mainContainer {
+    h2 {
+      margin-top: 30px;
+    }
+    .form__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .form__textField {
+        margin: 7px;
+        height: 50px;
+        width: 300px;
+        div {
+          fieldset {
+            legend {
+              width: 0px;
+            }
+          }
+        }
+      }
+    }
+    .form__btn {
+      @extend .btn;
+    }
+  }
+}

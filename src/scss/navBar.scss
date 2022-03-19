@@ -1,0 +1,37 @@
+.navContainer {
+  background-color: #fff159;
+  border-bottom: 1px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  .navigation {
+    .list {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0px;
+      li {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        width: 80px;
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        a:hover{
+          color: rgb(0, 17, 255);
+        }
+      }
+      .carrito {
+        display: flex;
+        align-items: center;
+        p{
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
