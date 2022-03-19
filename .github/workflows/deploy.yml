@@ -2,7 +2,7 @@ name: Deploy react app
 on:
  push: 
    branches:
-     - main
+     - master
 jobs:
  deploy:
   name: deploy app
@@ -25,4 +25,4 @@ jobs:
     - name: deploy the app
   run: npm run deploy
   env:
-      GH_TOKEN: ${{ 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  }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
