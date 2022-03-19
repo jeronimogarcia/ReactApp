@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jeronimogarcia/CursoReactPrueba/static/css/main.4e3b7d89.css",
+    "main.js": "/jeronimogarcia/CursoReactPrueba/static/js/main.f162828d.js",
+    "static/media/pageNotFound.jpg": "/jeronimogarcia/CursoReactPrueba/static/media/pageNotFound.ae8e63c9f96c53b2e0f9.jpg",
+    "static/media/michiSvg.svg": "/jeronimogarcia/CursoReactPrueba/static/media/michiSvg.840769d6a2ed11ff9df59077f65148c9.svg",
+    "static/media/carrito.svg": "/jeronimogarcia/CursoReactPrueba/static/media/carrito.3413936211dc0889cd9c9e49a6d95b8b.svg",
+    "index.html": "/jeronimogarcia/CursoReactPrueba/index.html",
+    "main.4e3b7d89.css.map": "/jeronimogarcia/CursoReactPrueba/static/css/main.4e3b7d89.css.map",
+    "main.f162828d.js.map": "/jeronimogarcia/CursoReactPrueba/static/js/main.f162828d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e3b7d89.css",
+    "static/js/main.f162828d.js"
+  ]
+}
