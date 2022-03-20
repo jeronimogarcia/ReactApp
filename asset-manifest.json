@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e3b7d89.css",
-    "main.js": "/static/js/main.38b5f559.js",
-    "static/media/pageNotFound.jpg": "/static/media/pageNotFound.ae8e63c9f96c53b2e0f9.jpg",
-    "static/media/michiSvg.svg": "/static/media/michiSvg.840769d6a2ed11ff9df59077f65148c9.svg",
-    "static/media/carrito.svg": "/static/media/carrito.3413936211dc0889cd9c9e49a6d95b8b.svg",
-    "index.html": "/index.html",
-    "main.4e3b7d89.css.map": "/static/css/main.4e3b7d89.css.map",
-    "main.38b5f559.js.map": "/static/js/main.38b5f559.js.map"
+    "main.css": "/ReactApp/static/css/main.4e3b7d89.css",
+    "main.js": "/ReactApp/static/js/main.2cca7f33.js",
+    "static/media/pageNotFound.jpg": "/ReactApp/static/media/pageNotFound.ae8e63c9f96c53b2e0f9.jpg",
+    "static/media/michiSvg.svg": "/ReactApp/static/media/michiSvg.840769d6a2ed11ff9df59077f65148c9.svg",
+    "static/media/carrito.svg": "/ReactApp/static/media/carrito.3413936211dc0889cd9c9e49a6d95b8b.svg",
+    "index.html": "/ReactApp/index.html",
+    "main.4e3b7d89.css.map": "/ReactApp/static/css/main.4e3b7d89.css.map",
+    "main.2cca7f33.js.map": "/ReactApp/static/js/main.2cca7f33.js.map"
   },
   "entrypoints": [
     "static/css/main.4e3b7d89.css",
-    "static/js/main.38b5f559.js"
+    "static/js/main.2cca7f33.js"
   ]
 }
