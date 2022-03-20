@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 import ItemListContainer from "./components/ItemList/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import Cart from "./views/Cart/Cart"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import {CartProvider} from "./context/CartContext";
 import ErrorPage from "./views/ErrorPage/ErrorPage";
 
@@ -13,7 +13,7 @@ import ErrorPage from "./views/ErrorPage/ErrorPage";
 function App() {
   return (
     <CartProvider>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar />
       <Routes>
         <Route
