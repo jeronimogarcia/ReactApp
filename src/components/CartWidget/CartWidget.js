@@ -12,4 +12,6 @@ const CardWidget = () => {
     </div>
   );
 };
+
+// roger gato
 export default CardWidget;
