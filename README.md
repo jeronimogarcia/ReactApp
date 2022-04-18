@@ -1,5 +1,7 @@
 # Michi Store
 
+- Deployment: https://jeronimogarcia.github.io/ReactApp/
+
 - Michi Store es un e-commerce para la venta de productos para gatos (comidas, juguetes y accesorios)
 
 ## Cuenta con
