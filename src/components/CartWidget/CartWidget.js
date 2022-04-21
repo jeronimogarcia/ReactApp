@@ -13,5 +13,4 @@ const CardWidget = () => {
   );
 };
 
-// roger gato
 export default CardWidget;
